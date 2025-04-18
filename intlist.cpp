@@ -107,7 +107,7 @@ void IntList::push_front(int value) {
    newNode->next = head;
    head = newNode;
    
-   if (tail = nullptr){
+   if (tail == nullptr){
     tail = newNode;
    }
 }
